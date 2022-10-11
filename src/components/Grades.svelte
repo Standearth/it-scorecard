@@ -66,10 +66,10 @@
                     <Container>
                         <div id="grade_header">
                             <Row>
-                                <Col sm=8 md=8>
+                                <Col sm=8 md=8 lg=8>
                                     <p style="padding-left:20px;">Company Name</p>
                                 </Col>
-                                <Col sm=4 md=4>
+                                <Col sm=4 md=4 lg=4>
                                     <div id="overall"><p>Grade</p></div>
                                     <div id="ratio"><p>Claimed RE Ratio</p></div>
                                 </Col>
@@ -80,20 +80,20 @@
                             <AccordionItem>
                                 <div slot="header" class="acc_header">
                                     <Row>
-                                        <Col sm=2 md=2>
+                                        <Col sm=2 md=2 lg=2>
                                             <div class="logo">
                                                 <img src="assets/logos/lenovo.png">
                                             </div>
                                         </Col>
-                                        <Col sm=6 md=6>
+                                        <Col sm=6 md=6 lg=6>
                                             <h4>{company['Company Name']}</h4>
                                         </Col>
-                                        <Col sm=2 md=2>
+                                        <Col sm=2 md=2 lg=2>
                                             <div class="grade">
                                                 <Grade gradeDetail={company['Overall Grade']} grade={company['Overall Grade'].charAt(0)} />
                                             </div>
                                         </Col>
-                                        <Col sm=2 md=2>
+                                        <Col sm=2 md=2 lg=2>
                                             <p>{company['Claimed Renewable Energy Ratio']}</p>
                                         </Col>
                                     </Row>
@@ -138,6 +138,10 @@
  .control {
     color:#fff;
     margin-top:30px;
+ }
+
+ .acc_header h4 {
+    min-width:200px;
  }
 
  #grade_header p {
