@@ -8,18 +8,18 @@
 
 <svelte:head>
 	<!-- HEAD -->
-	<title>Practice what you preach: Open Letter to Lululemon</title>
+	<title>Supply Change</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="As yoga teachers and practitioners, we ask lululemon to commit to phase out coal and source 100 percent renewable energy across its supply chain." />
+	<meta name="description" content="An analysis of climate commitments and greenhouse gas emissions reductions taken by global technology brands and their top suppliers." />
 	<meta name="author" content="Stand.earth" />
 	<meta name="news_keywords" content="" />
 
-	<meta property="og:title" content="Practice what you preach: Open Letter to Lululemon" />
+	<meta property="og:title" content="Supply Change" />
 	<meta property="og:site_name" content="Stand.earth" />
 	<meta property="og:url" content="https://publications.stand.earth/yoga-letter/" />
-	<meta property="og:description" content="As yoga teachers and practitioners, we ask lululemon to commit to phase out coal and source 100 percent renewable energy across its supply chain." />
+	<meta property="og:description" content="An analysis of climate commitments and greenhouse gas emissions reductions taken by global technology brands and their top suppliers" />
 	<meta property="og:type" content="article" />
 	<meta property="og:locale" content="en_US" />
 
@@ -31,8 +31,8 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="https://publications.stand.earth/yoga-letter/" />
 	<meta name="twitter:creator" content="@standearth" />
-	<meta name="twitter:title" content="Practice what you preach: Open Letter to Lululemon" />
-	<meta name="twitter:description" content="As yoga teachers and practitioners, we ask lululemon to commit to phase out coal and source 100 percent renewable energy across its supply chain." />
+	<meta name="twitter:title" content="Supply Change" />
+	<meta name="twitter:description" content="An analysis of climate commitments and greenhouse gas emissions reductions taken by global technology brands and their top suppliers" />
 	<meta name="twitter:image:src" content="https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10046/imgonline-com-ua-CompressToSize-aSaGUGhdUN3.jpeg?v=1657902529000" />
 	
 
