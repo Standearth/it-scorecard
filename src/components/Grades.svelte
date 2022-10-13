@@ -63,13 +63,13 @@
            <Col sm=12 md=12 lg={{size:10,offset:1}}>
               <div class="grades">
                 <div class="rows">
-                    <Container>
+                    <Container fluid>
                         <div id="grade_header">
                             <Row>
-                                <Col sm=8 md=8 lg=8>
+                                <Col xs=12 sm=8 md=8 lg=8>
                                     <p style="padding-left:20px;">Company Name</p>
                                 </Col>
-                                <Col sm=4 md=4 lg=4>
+                                <Col xs=12 sm=4 md=4 lg=4>
                                     <div id="overall"><p>Grade</p></div>
                                     <div id="ratio"><p>Claimed RE Ratio</p></div>
                                 </Col>
@@ -80,20 +80,20 @@
                             <AccordionItem>
                                 <div slot="header" class="acc_header">
                                     <Row>
-                                        <Col sm=2 md=2 lg=2>
+                                        <Col xs=6 sm=2 md=2 lg=2>
                                             <div class="logo">
-                                                <img src="assets/logos/lenovo.png">
+                                                <img src="assets/logos/{company['Company Name']}.png">
                                             </div>
                                         </Col>
-                                        <Col sm=6 md=6 lg=6>
+                                        <Col xs=6 sm=6 md=6 lg=6>
                                             <h4>{company['Company Name']}</h4>
                                         </Col>
-                                        <Col sm=2 md=2 lg=2>
+                                        <Col xs=6 sm=2 md=2 lg=2>
                                             <div class="grade">
                                                 <Grade gradeDetail={company['Overall Grade']} grade={company['Overall Grade'].charAt(0)} />
                                             </div>
                                         </Col>
-                                        <Col sm=2 md=2 lg=2>
+                                        <Col xs=6 sm=2 md=2 lg=2>
                                             <p>{company['Claimed Renewable Energy Ratio']}</p>
                                         </Col>
                                     </Row>
@@ -140,19 +140,36 @@
     margin-top:30px;
  }
 
+.acc_header {
+    width:100%;
+}
+
  .acc_header h4 {
     min-width:200px;
+    padding-top:10px;
  }
+
+ .acc_header .grade {
+    padding-top:5px;
+ }
+
+.acc_header p {
+    padding-top:12px;
+} 
+
+
+#grade_header {
+    margin-top:30px;
+}
 
  #grade_header p {
     font-style:italic;
-    margin-top:30px;
     font-size:15px;
     color:#fff;
 }
 
 .logo img {
-    max-height:150px;
+    max-height:60px;
 }
 
 #overall, #ratio {
