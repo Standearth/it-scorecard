@@ -1,4 +1,8 @@
 {
+  "src/styles/fonts/Montserrat/Montserrat-Light.ttf": {
+    "file": "_app/immutable/assets/Montserrat-Light-e0feb97a.ttf",
+    "src": "src/styles/fonts/Montserrat/Montserrat-Light.ttf"
+  },
   "src/styles/fonts/gotham/Gotham Black Regular.ttf": {
     "file": "_app/immutable/assets/Gotham Black Regular-16868885.ttf",
     "src": "src/styles/fonts/gotham/Gotham Black Regular.ttf"
@@ -7,16 +11,12 @@
     "file": "_app/immutable/assets/Montserrat-SemiBold-f227901e.ttf",
     "src": "src/styles/fonts/Montserrat/Montserrat-SemiBold.ttf"
   },
-  "src/styles/fonts/Montserrat/Montserrat-Light.ttf": {
-    "file": "_app/immutable/assets/Montserrat-Light-e0feb97a.ttf",
-    "src": "src/styles/fonts/Montserrat/Montserrat-Light.ttf"
-  },
   "src/styles/fonts/Montserrat/Montserrat-Regular.ttf": {
     "file": "_app/immutable/assets/Montserrat-Regular-077cdab1.ttf",
     "src": "src/styles/fonts/Montserrat/Montserrat-Regular.ttf"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "_app/immutable/start-72310eff.js",
+    "file": "_app/immutable/start-ba7ff14e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -85,7 +85,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "_app/immutable/pages/index.svelte-7ee9e535.js",
+    "file": "_app/immutable/pages/index.svelte-78ef7e35.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -117,12 +117,12 @@
     "file": "_app/immutable/assets/fonts-694798f8.css",
     "src": "src/routes/demo/fonts.css"
   },
-  "src/routes/index.css": {
-    "file": "_app/immutable/assets/index-3388832c.css",
-    "src": "src/routes/index.css"
-  },
   "src/routes/__layout.css": {
     "file": "_app/immutable/assets/__layout-f30c4546.css",
     "src": "src/routes/__layout.css"
+  },
+  "src/routes/index.css": {
+    "file": "_app/immutable/assets/index-3388832c.css",
+    "src": "src/routes/index.css"
   }
 }
