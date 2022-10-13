@@ -82,7 +82,7 @@
                                     <Row>
                                         <Col xs=6 sm=2 md=2 lg=2>
                                             <div class="logo">
-                                                <img src="assets/logos/{company['Company Name']}-logo.png">
+                                                <img alt="{company['Company Name']}" src="assets/logos/{company['Company Name']}-logo.png">
                                             </div>
                                         </Col>
                                         <Col xs=6 sm=6 md=6 lg=6>
