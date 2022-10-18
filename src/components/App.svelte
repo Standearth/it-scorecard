@@ -37,7 +37,7 @@
           <a href="#download">DOWNLOAD PDF</a>
           <div class="social-share">
             <a target="_new" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fpublications.stand.earth%2Fsupply-change"><button class="facebook"><Icon name="facebook" stroke="var(--white)" stroke-width=2 width="30" /></button></a>
-            <a target="_new" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fpublications.stand.earth%2Fsupply-change%2F&via=standearth"><button class="twitter"><Icon name="twitter" stroke="var(--white)" stroke-width=2 width="30"/></button></a>
+            <a target="_new" href="hhttps://twitter.com/intent/tweet?text=A%20new%20report%20from%20%40Standearth%20and%20%40GreenpeaceEAsia%20shows%20that%20global%20technology%20companies%20are%20failing%20in%20their%20climate%20commitments.%20We%20must%20urge%20a%20transition%20to%20100%25%20renewable%20energy%20by%202030%20to%20fight%20climate%20chaos.%20Learn%20more%20at%20https%3A//publications.stand.earth/supply-change%0A"><button class="twitter"><Icon name="twitter" stroke="var(--white)" stroke-width=2 width="30"/></button></a>
           </div>
       </div>
       </Col>
